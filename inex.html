@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <img src="imagen/superMASS.jpg" height="200px" alt="logo">
+    </div>
+    <div>
+        <h2 class="nombre-empresa">Vinos y Abarrotes SUPERMASS <br></h2>
+        <h3>(Proyecto No. 2: Desarrollo de Software CRUD)</h3>
+    </div>
+    
+</header>
+
+  <h1>Base de Datos de Empleados</h1>
+
+  <main>
+    <form id="formulario">
+      <div>
+        <label for="nombre">Nombre</label>
+        <input type="text"  id="nombre">
+      </div>
+      <div>
+        <label for="puesto">Puesto</label>
+        <input type="text" id="puesto">
+      </div>
+      <div id="radio">
+        <label>
+          <input
+           type="radio" 
+           name="activo" 
+           id="activo" 
+           value="activo" 
+           checked/> 
+           Empleados</label>
+           <label>
+          <input
+           type="radio" 
+           name="activo" 
+           id="activo" 
+           value="inactivo" 
+           checked/> 
+           Exempleado</label>
+      </div>
+      <div>
+        <input id="btn" type="button" value="Enviar">
+      </div>
+      <div>
+        <input id="btn2" type="button" value="Actualizar" style="display : none"/>
+      </div>
+    </form>
+    <div id="msg"></div>
+
+    <div class="mostrar">
+      <table id="tabla">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Puesto</th>
+            <th>Opciones</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+    
+
+  <script src="app.js"></script>
+</body>
+</html>

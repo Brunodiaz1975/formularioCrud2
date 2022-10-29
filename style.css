@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e5e5e5;
+}
+header{
+    background-color: #d19d4f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+form {
+    width: 400px;
+    background-color: beige;
+    margin: 20px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 5px;
+}
+form > div {
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+    height: 30px;
+}
+#radio > label {
+    width: 50%;
+    border: 2px black;
+    margin: 8px;
+    border-radius: 5px;
+    height: 80px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b2b2b2;
+}
+#radio > input{
+    display: flex;
+}
+label {
+    color: black;
+}
+.mostrar {
+    padding: 5px;
+    background-color: beige;
+    width: 400px;
+    max-height: 400px;
+    min-height: 400px;
+    margin: 20px;
+    border-radius: 5px;
+    
+    overflow-y: scroll
+}
+input[type="button"]{
+    height: 35px;
+    cursor: pointer;
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+   overflow-y: scroll;
+}
+th{
+    margin: 2px solid black;
+}
+.tr{
+    border: 2px solid black;
+}
