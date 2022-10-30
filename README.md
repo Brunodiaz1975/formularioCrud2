@@ -21,3 +21,4 @@ https://brunodiaz1975.github.io/formularioCrud2/
 
 TSU egresado de la Universidad Tecnologica de Nezahualcoyotl en la carrera de Comercializacion. Actialmente estudianso HTML, CSS y JAVASCRIP!
 [base](https://user-images.githubusercontent.com/111444600/198848244-bce2d271-b941-497c-b41e-6ff2493ba58a.jpg)
+![base](https://user-images.githubusercontent.com/111444600/198863729-91138740-3b49-4f23-a5d1-6a41a59e10d4.jpg)
