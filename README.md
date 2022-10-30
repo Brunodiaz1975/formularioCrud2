@@ -15,7 +15,7 @@ https://github.com/Brunodiaz1975
 
 ##enlace demo
 
-https://github.com/Brunodiaz1975/landing
+https://brunodiaz1975.github.io/formularioCrud2/
 
 ##sobre mi
 
