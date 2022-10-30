@@ -15,7 +15,7 @@ https://github.com/Brunodiaz1975
 
 ##enlace demo
 
-https://brunodiaz1975.github.io/formularioCrud2/
+ https://brunodiaz1975.github.io/formularioCrud2/inex.html
 
 ##sobre mi
 
